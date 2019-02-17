@@ -118,10 +118,25 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="Cos.h" />
     <ClInclude Include="Function.h" />
+    <ClInclude Include="FunctionComposition.h" />
     <ClInclude Include="FunctionFactory.h" />
+    <ClInclude Include="FunctionMultiplication.h" />
+    <ClInclude Include="FunctionParameterizedIntegral.h" />
+    <ClInclude Include="FunctionPower.h" />
+    <ClInclude Include="FunctionSum.h" />
+    <ClInclude Include="Identity.h" />
     <ClInclude Include="Integrator.h" />
+    <ClInclude Include="Sin.h" />
+    <ClInclude Include="Sinh.h" />
     <ClInclude Include="SphercialBesselFun.h" />
+    <ClInclude Include="TwoFunction.h" />
+    <ClInclude Include="TwoFunctionFactory.h" />
+    <ClInclude Include="TwoFunctionMultiplication.h" />
+    <ClInclude Include="TwoFunctionSum.h" />
+    <ClInclude Include="TwoFunctionTwoSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

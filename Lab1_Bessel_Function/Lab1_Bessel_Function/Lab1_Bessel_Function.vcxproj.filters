@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Functions">
+      <UniqueIdentifier>{97edf7c2-c66e-4fc3-ac4c-649013acacd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MetaFunctions">
+      <UniqueIdentifier>{ff48c81e-99d8-44c0-a387-6d32c1938406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TwoFunctions">
+      <UniqueIdentifier>{c83eab5d-6fd8-4d08-afd7-1bd129259a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MetaTwoFunctions">
+      <UniqueIdentifier>{1f05ec0b-8ca8-46b9-828a-f1546a632690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{a5819857-5a4d-4bd9-950d-437c9b2c63e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -20,17 +35,62 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Function.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Integrator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SphercialBesselFun.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sin.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Cos.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Identity.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Sinh.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionMultiplication.h">
+      <Filter>Header Files\MetaFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionPower.h">
+      <Filter>Header Files\MetaFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionComposition.h">
+      <Filter>Header Files\MetaFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionSum.h">
+      <Filter>Header Files\MetaFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFunction.h">
+      <Filter>Header Files\TwoFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFunctionSum.h">
+      <Filter>Header Files\MetaTwoFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFunctionMultiplication.h">
+      <Filter>Header Files\MetaTwoFunctions</Filter>
+    </ClInclude>
     <ClInclude Include="FunctionFactory.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFunctionFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionParameterizedIntegral.h">
+      <Filter>Header Files\MetaFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoFunctionTwoSum.h">
+      <Filter>Header Files\MetaTwoFunctions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

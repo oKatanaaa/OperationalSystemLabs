@@ -3,15 +3,11 @@
 #include "Function.h"
 
 class Integrator {
-private:
-	Function* function;
-	double delta = 10e-4;
 public:
-	Integrator(Function* function) { this->function = function; };
-	double integrate(double left_x, double right_x);
+	static double integrate(Function* fun, double left_x, double right_x, double dx);
 };
 
-double Integrator::integrate(double left_x, double right_x) {
+double Integrator::integrate(Function* fun, double left_x, double right_x, double dx) {
 	if (right_x == INFINITY)
 		right_x = 10e6;
 
@@ -21,12 +17,12 @@ double Integrator::integrate(double left_x, double right_x) {
 	double value = 0;
 	double x = left_x;
 	while (x < right_x) {
-		double delta_value = this->function->get_value(x) * this->delta;
+		double delta_value = fun->get_value(x) * dx;
 		if (abs(delta_value) < 10e-12)
 			break;
 
 		value += delta_value;
-		x += delta;
+		x += dx;
 	}
 	return value;
 }
