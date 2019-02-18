@@ -21,7 +21,7 @@ public:
 	}
 
 	Function* set_arg2(double arg2) {
-		double value_fun2 = this->fun1->get_value(arg1);
+		double value_fun2 = this->fun1->get_value(arg2);
 		Function* constant_value_fun2 = FunctionFactory::constant(value_fun2);
 		return FunctionFactory::multiply(this->fun1, constant_value_fun2);
 	}

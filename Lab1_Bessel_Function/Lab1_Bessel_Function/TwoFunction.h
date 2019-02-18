@@ -3,12 +3,12 @@
 #include "TwoFunctionFactory.h"
 
 class TwoFunction {
-	friend TwoFunctionFactory;
+	friend class TwoFunctionFactory;
 protected:
 	Function* fun1;
 	Function* fun2;
 public:
-	virtual double get_value(double, double);
+	virtual double get_value(double arg1, double arg2);
 
 	virtual Function* set_arg1(double arg1);
 

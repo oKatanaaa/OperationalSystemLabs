@@ -28,7 +28,7 @@ public:
 		if(this->kind == Kind::FIRST)
 			 this->bessel_fun->get_value(x);
 		else
-			if(this->order & 1 == 1)
+			if((this->order & 1) == 1)
 				return this->bessel_fun->get_value(x);
 			else
 				return -this->bessel_fun->get_value(x);
@@ -92,8 +92,8 @@ void SphercialBesselFun::create_bessel_fun() {
 	TwoFunction* _exp_x_t = TwoFunctionFactory::wrap(_power_x_t, _wrapper_exp);
 
 	// integral by t of exp(x, t) from 0 up to INFINITY
-	double _left_x = 0;
-	double _right_x = INFINITY;
+	_left_x = 0;
+	_right_x = INFINITY;
 	Function* _integral2_x = TwoFunctionFactory::parameter_integral(_exp_x_t, _left_x, _right_x, ArgIndex::SECOND);
 
 	

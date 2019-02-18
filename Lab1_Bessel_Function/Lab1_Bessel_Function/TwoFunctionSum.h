@@ -4,7 +4,7 @@
 #include "FunctionFactory.h"
 
 class TwoFunctionSum : public TwoFunction {
-	friend TwoFunctionFactory;
+	friend class TwoFunctionFactory;
 public:
 	TwoFunctionSum(Function* fun1, Function* fun2) {
 		this->fun1 = fun1;
@@ -22,7 +22,7 @@ public:
 	}
 
 	Function* set_arg2(double arg2) {
-		double value_fun2 = this->fun1->get_value(arg1);
+		double value_fun2 = this->fun1->get_value(arg2);
 		Function* constant_value_fun2 = FunctionFactory::constant(value_fun2);
 		return FunctionFactory::sum(this->fun1, constant_value_fun2);
 	}

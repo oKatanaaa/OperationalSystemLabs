@@ -6,6 +6,7 @@
 #include "TwoFunctionTwoSum.h"
 #include "TwoFunctionWrapper.h"
 #include "FunctionParameterizedIntegral.h"
+#include "TwoFunctionSum.h"
 
 class TwoFunctionFactory {
 public:
