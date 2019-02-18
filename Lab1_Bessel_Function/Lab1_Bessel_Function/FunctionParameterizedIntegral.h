@@ -2,19 +2,19 @@
 #include "Function.h"
 #include "TwoFunction.h"
 #include "Integrator.h"
+#include "TwoFunctionWrapper.h"
 
-class FunctionParameterizedIntegral : Function {
+class FunctionParameterizedIntegral : public Function {
 private:
 	TwoFunction* fun;
 	
 	double left_x;
 	double right_x;
 	
-	enum ArgToIntegrate { FIRST, SECOND };
-	ArgToIntegrate arg_to_integrate;
+	ArgIndex arg_to_integrate;
 public:
 	FunctionParameterizedIntegral(TwoFunction* fun, double left_x, double right_x, 
-		ArgToIntegrate arg_to_integrate) {
+		ArgIndex arg_to_integrate) {
 		this->fun = fun;
 		this->left_x = left_x;
 		this->right_x = right_x;
@@ -24,7 +24,7 @@ public:
 	double get_value(double x) {
 		Function* new_fun;
 
-		if (this->arg_to_integrate == ArgToIntegrate::FIRST)
+		if (this->arg_to_integrate == ArgIndex::FIRST)
 			new_fun = this->fun->set_arg1(x);
 		else
 			new_fun = this->fun->set_arg2(x);

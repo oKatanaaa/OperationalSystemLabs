@@ -92,5 +92,11 @@
     <ClInclude Include="TwoFunctionTwoSum.h">
       <Filter>Header Files\MetaTwoFunctions</Filter>
     </ClInclude>
+    <ClInclude Include="TwoFunctionWrapper.h">
+      <Filter>Header Files\MetaTwoFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp.h">
+      <Filter>Header Files\Functions</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

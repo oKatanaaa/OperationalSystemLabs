@@ -1,0 +1,10 @@
+﻿  Source.cpp
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\twofunction.h(6): error C2433: 'TwoFunctionFactory': 'friend' not permitted on data declarations
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\twofunction.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\twofunctionmultiplication.h(24): error C2065: 'arg1': undeclared identifier
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\twofunctionfactory.h(17): error C2061: syntax error: identifier 'TwoFunctionSum'
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(31): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(95): error C2374: '_left_x': redefinition; multiple initialization
+  h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(71): note: see declaration of '_left_x'
+h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(96): error C2374: '_right_x': redefinition; multiple initialization
+  h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(72): note: see declaration of '_right_x'

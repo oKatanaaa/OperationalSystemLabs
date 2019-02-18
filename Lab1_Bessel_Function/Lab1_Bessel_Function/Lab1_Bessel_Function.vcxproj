@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClInclude Include="Const.h" />
     <ClInclude Include="Cos.h" />
+    <ClInclude Include="Exp.h" />
     <ClInclude Include="Function.h" />
     <ClInclude Include="FunctionComposition.h" />
     <ClInclude Include="FunctionFactory.h" />
@@ -137,6 +138,7 @@
     <ClInclude Include="TwoFunctionMultiplication.h" />
     <ClInclude Include="TwoFunctionSum.h" />
     <ClInclude Include="TwoFunctionTwoSum.h" />
+    <ClInclude Include="TwoFunctionWrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
