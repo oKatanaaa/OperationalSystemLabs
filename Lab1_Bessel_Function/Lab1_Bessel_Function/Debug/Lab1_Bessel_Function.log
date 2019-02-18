@@ -1,7 +1,0 @@
-﻿  Source.cpp
-h:\cppprojects\university\os\lab1_bessel_function\lab1_bessel_function\sphercialbesselfun.h(35): warning C4715: 'SphercialBesselFun::get_value': not all control paths return a value
-Source.obj : error LNK2001: unresolved external symbol "public: virtual double __thiscall Function::get_value(double)" (?get_value@Function@@UAENN@Z)
-Source.obj : error LNK2001: unresolved external symbol "public: virtual double __thiscall TwoFunction::get_value(double,double)" (?get_value@TwoFunction@@UAENNN@Z)
-Source.obj : error LNK2001: unresolved external symbol "public: virtual class Function * __thiscall TwoFunction::set_arg1(double)" (?set_arg1@TwoFunction@@UAEPAVFunction@@N@Z)
-Source.obj : error LNK2001: unresolved external symbol "public: virtual class Function * __thiscall TwoFunction::set_arg2(double)" (?set_arg2@TwoFunction@@UAEPAVFunction@@N@Z)
-H:\CppProjects\University\OS\Lab1_Bessel_Function\Debug\Lab1_Bessel_Function.exe : fatal error LNK1120: 4 unresolved externals
