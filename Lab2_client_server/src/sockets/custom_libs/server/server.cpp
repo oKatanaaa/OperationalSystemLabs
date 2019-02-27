@@ -42,6 +42,7 @@ void Server::wait_for_client() {
         char* answer = this->listener->on_msg_received(this->buff, received_bytes_count);
         send(client_socket, answer, received_bytes_count, 0);
     }
+    std::cout << "Client disconnected." << std::endl;
 }
 
 void Server::set_message_receive_listener(MessageReceiveListener *listener)  {

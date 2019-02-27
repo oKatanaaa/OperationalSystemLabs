@@ -11,7 +11,6 @@
 
 #include <winsock2.h>
 #include <ws2tcpip.h>
-#define MY_PORT 90
 
 
 class SocketBasedEntity {

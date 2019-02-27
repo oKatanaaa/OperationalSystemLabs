@@ -56,7 +56,7 @@ int main() {
         buff[nsize] = 0;
         std::cout << "Received msg: " << buff << std::endl;
         std::cin >> &buff[0];
-        if(!strcmp(&buff[0], "quit\n")) {
+        if(strcmp(&buff[0], "quit") == 0) {
             std::cout << "Exit...";
             closesocket(mysocket);
             WSACleanup();
