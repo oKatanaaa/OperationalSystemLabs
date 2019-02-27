@@ -1,0 +1,4 @@
+g++ -o c.out trash_client.cpp -lws2_32;
+g++ -o s.out trash_server.cpp -lws2_32;
+./s.out > 1 &
+./c.out

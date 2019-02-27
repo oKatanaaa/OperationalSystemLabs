@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab1_Bessel_Function"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab1_Bessel_Function">
+				<Option output="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Lab1_Bessel_Function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1_Bessel_Function"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab1_Bessel_Function/fast">
+				<Option output="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Lab1_Bessel_Function.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab1_Bessel_Function/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Factories/FunctionFactory.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Factories/TwoFunctionFactory.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Const.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Cos.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Exp.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Function.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Identity.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Sin.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/Sinh.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/SphercialBesselFun.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaFunctions/FunctionComposition.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaFunctions/FunctionMultiplication.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaFunctions/FunctionParameterizedIntegral.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaFunctions/FunctionPower.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaFunctions/FunctionSum.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaTwoFunctions/TwoFunctionMultiplication.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaTwoFunctions/TwoFunctionSum.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaTwoFunctions/TwoFunctionTwoSum.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/MetaTwoFunctions/TwoFunctionWrapper.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/TwoFunction/TwoFunction.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Utils/Integrator.h">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/source/Source.cpp">
+			<Option target="Lab1_Bessel_Function"/>
+		</Unit>
+		<Unit filename="/cygdrive/h/CppProjects/University/OS/Lab1_Bessel_Function/Lab1_Bessel_Function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
