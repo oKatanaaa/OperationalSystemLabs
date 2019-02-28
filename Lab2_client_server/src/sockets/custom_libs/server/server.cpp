@@ -40,7 +40,7 @@ void Server::wait_for_client() {
     while((received_bytes_count = recv(this->client_socket, &this->buff[0], sizeof(this->buff), 0)) != SOCKET_ERROR) {
         std::cout << "Client have sent: " << buff << std::endl;
         char* answer = this->listener->on_msg_received(this->buff, received_bytes_count);
-        send(client_socket, answer, received_bytes_count, 0);
+        send(client_socket, answer, strlen(answer), 0);
     }
     std::cout << "Client disconnected." << std::endl;
 }

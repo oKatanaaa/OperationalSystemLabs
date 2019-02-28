@@ -58,8 +58,6 @@ int main() {
         std::cin >> &buff[0];
         if(strcmp(&buff[0], "quit") == 0) {
             std::cout << "Exit...";
-            closesocket(mysocket);
-            WSACleanup();
             return 0;
         }
 

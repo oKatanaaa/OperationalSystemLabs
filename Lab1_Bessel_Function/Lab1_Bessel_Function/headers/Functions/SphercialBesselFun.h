@@ -15,7 +15,8 @@ class SphercialBesselFun: public Function {
 public:
 	enum Kind { FIRST, SECOND };
 
-	SphercialBesselFun(Kind kind, int order) { 
+	SphercialBesselFun(Kind kind, int order) {
+	    this->order = order;
 		this->kind = kind; 
 		if(kind == Kind::FIRST)
 			this->alpha = (double)order + 0.5;
@@ -28,10 +29,10 @@ public:
 		if(this->kind == Kind::FIRST)
 			 this->bessel_fun->get_value(x);
 		else
-			if((this->order & 1) == 1)
-				return this->bessel_fun->get_value(x);
+			if((this->order & 1) == 0)
+				return (-1)*this->bessel_fun->get_value(x);
 			else
-				return -this->bessel_fun->get_value(x);
+				return this->bessel_fun->get_value(x);
 	}
 
 private:
