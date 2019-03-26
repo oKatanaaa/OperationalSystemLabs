@@ -11,28 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07372c59-7897-42e8-a3f7-cdca639a3bc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/Lab1_Bessel_Function.dir/source/Source.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/Lab1_Bessel_Function.dir/source/Source.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Lab1_Bessel_Function.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/cmake-build-debug/Lab1_Bessel_Function.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/SphercialBesselFun.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/headers/Functions/SphercialBesselFun.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/source/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1_Bessel_Function/Lab1_Bessel_Function/source/Source.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sockets/custom_libs/MRLImpl/MessageReceiveListenerImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sockets/custom_libs/MRLImpl/MessageReceiveListenerImpl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sockets/custom_libs/MRLImpl/MessageReceiveListenerImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/sockets/custom_libs/MRLImpl/MessageReceiveListenerImpl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sockets/custom_libs/server/server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sockets/custom_libs/server/server.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trash_client.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash_client.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="07372c59-7897-42e8-a3f7-cdca639a3bc7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,23 +260,22 @@
       <workItem from="1551182808164" duration="4837000" />
       <workItem from="1551262277131" duration="13842000" />
       <workItem from="1551325723171" duration="953000" />
-      <workItem from="1551333706448" duration="3835000" />
+      <workItem from="1551333706448" duration="3928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36766000" />
+    <option name="totallyTimeSpent" value="36859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
