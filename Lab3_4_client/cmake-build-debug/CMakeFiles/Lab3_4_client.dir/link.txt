@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Lab3_4_client.dir/main.cpp.o  -o Lab3_4_client.exe -Wl,--out-implib,libLab3_4_client.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

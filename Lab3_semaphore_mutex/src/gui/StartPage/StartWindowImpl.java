@@ -7,15 +7,14 @@ import gui.StartPage.panels.ChoicePanel;
 import gui.StartPage.panels.ManualPanel;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 
 
-public class StartPageImpl extends JFrame implements StartPage {
 
-    private int CHOICE_MODE = 0;
-    private int MANUAL_MODE = 1;
+public class StartWindowImpl extends JFrame implements StartWindow {
+
+    private final int CHOICE_MODE = 0;
+    private final int MANUAL_MODE = 1;
     private int mode = CHOICE_MODE;
 
     private ChoicePanel choicePanel;
@@ -31,7 +30,7 @@ public class StartPageImpl extends JFrame implements StartPage {
     private ChoicePanelListener choicePanelListener;
     private ManualPanelListener manualPanelListener;
 
-    public StartPageImpl() {
+    public StartWindowImpl() {
         setTitle("Start Page");
         setSize(300, 200);
 

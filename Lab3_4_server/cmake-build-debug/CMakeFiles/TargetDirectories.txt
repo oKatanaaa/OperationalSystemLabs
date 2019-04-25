@@ -1,0 +1,3 @@
+/cygdrive/h/CppProjects/University/Lab3_4_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/h/CppProjects/University/Lab3_4_server/cmake-build-debug/CMakeFiles/Lab3_4_server.dir
+/cygdrive/h/CppProjects/University/Lab3_4_server/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,6 +1,6 @@
 package gui;
 
-import gui.StartPage.StartPageImpl;
+import gui.StartPage.StartWindowImpl;
 import gui.StartPage.listeners.ChoicePanelListener;
 import gui.StartPage.listeners.ManualPanelListener;
 
@@ -11,7 +11,7 @@ public class Test {
 
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
-            StartPageImpl frame = new StartPageImpl();
+            StartWindowImpl frame = new StartWindowImpl();
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
 
